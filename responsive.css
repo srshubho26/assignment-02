@@ -52,6 +52,14 @@
         max-width: 250px;
         margin: 0 auto;
     }
+
+    .runExtraMile .title-box {
+        padding-right: 50px;
+    }
+
+    .title-box h2 {
+        font-size: 32px;
+    }
 }
 
 
@@ -72,6 +80,10 @@
         padding: 10px 15px;
         font-size: 14px;
     }
+
+    .runExtraMile .title-box {
+        padding-right: 30px;
+    }
 }
 
 
@@ -86,9 +98,6 @@
         background-position: bottom center;
         background-size: 100% auto;
         max-width: 320px;
-    }
-
-    .banner .banner-contents{
     }
 
     .banner .banner-contents h1{
@@ -148,5 +157,36 @@
         margin: 0 auto;
         gap: 50px;
         margin-top: 50px;
+    }
+
+    .runExtraMile {
+        max-width: 480px;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding: 20px;
+    }
+
+    .runExtraMile .runExtraMileWrap{
+        flex-wrap: wrap;
+    }
+
+    .runExtraMile .title-box {
+        padding-right: 0;
+        gap: 15px;
+    }
+    
+    .runExtraMile .title-box a.btn {
+        padding: 10px 60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .runExtraMile .right_runExtraMile .thumb-wrap {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    .runExtraMile .right_runExtraMile .thumb-wrap img {
+        height: auto;
     }
 }

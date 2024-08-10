@@ -251,3 +251,44 @@ header nav button#nav-toggler{
     line-height: 18px;
     letter-spacing: 0.3px;
 }
+
+/* Run extra mile CSS */
+.runExtraMile{    
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+
+.runExtraMile .title-box {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    text-align: left;
+    height: 100%;
+    padding-right: 160px;
+    gap: 15px;
+}
+
+.runExtraMile .title-box h2{
+    margin-bottom: 0;
+}
+
+.runExtraMile .title-box a.btn{
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.runExtraMile .right_runExtraMile .thumb-wrap{
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.runExtraMile .right_runExtraMile .thumb-wrap img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 15px;
+}
