@@ -162,7 +162,7 @@ header nav button#nav-toggler{
 
 .banner .container{
     position: relative;
-    background: url(img/images\ 2.png) no-repeat;
+    background: url(img/bannerImage.png) no-repeat;
     background-position: right center;
     background-size: contain;
     padding: 40px 10px;
