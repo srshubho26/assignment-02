@@ -257,11 +257,12 @@ header nav button#nav-toggler{
 }
 
 /* Run extra mile CSS */
-.runExtraMile{    
+.runExtraMile {
     background: rgba(255, 255, 255, .1);
     backdrop-filter: blur(20px);
     border-radius: 15px;
     padding: 20px 30px;
+    box-shadow: 0 0 10px 5px #6262621c inset;
 }
 
 .runExtraMile .title-box {
@@ -305,9 +306,10 @@ header nav button#nav-toggler{
 }
 
 .bmiCalculator .cal-bg {
-    background: rgba(255, 255, 255, .1);
+    background: linear-gradient(#212121c6, #0d0b0b), url(img/exercise2.png) no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 50px 0;
-    box-shadow: 0 0 10px 5px #40404057 inset;
 }
 
 .bmiCalculator .calculator-wrap .calculator-left{
@@ -397,7 +399,7 @@ header nav button#nav-toggler{
 .bmiCalculator .calculator-wrap .calculator-right .bmiInputs input:focus,
 .bmiCalculator .calculator-wrap .calculator-right .bmiInputs select:focus{
     outline: 0;
-    background-color: rgba(255, 255, 255, 0.352);
+    background-color: rgb(122, 121, 121);
 }
 
 
