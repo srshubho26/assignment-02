@@ -435,3 +435,56 @@ header nav button#nav-toggler{
     height: 100%;
     border-radius: 15px;
 }
+
+/* Review CSS */
+.review{
+    padding-bottom: 50px;
+}
+
+.review .review-wrap{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.review .review-wrap .single-review {
+    flex-wrap: wrap;
+    border: 1px solid rgb(255, 255, 255, .2);
+    background: #191919;
+    border-radius: 80px 0 80px 0;
+    padding: 25px;
+}
+
+.review .review-wrap .single-review:nth-child(2),
+.review .review-wrap .single-review:nth-child(3){
+    border-radius: 0 80px 0 80px;
+}
+
+.review .review-wrap .single-review .reviewer-thumb{
+    flex-basis: 30%;
+}
+
+.review .review-wrap .single-review .reviewer-thumb img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #76757594;
+    padding: 10px;
+    background: #f2a96c14;
+}
+
+.review .review-wrap .single-review .client-review{
+    flex-basis: 69%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 15px;
+}
+
+.review .review-wrap .single-review .client-review h4{
+    font-style: italic;
+}
+
+.review .review-wrap .single-review .client-review p{
+    font-size: 14px;
+}

@@ -111,6 +111,22 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .review .review-wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .review .review-wrap .single-review .reviewer-thumb img {
+        max-width: 150px;
+    }
+    
+    .review .review-wrap .single-review {
+        display: block;
+        text-align: center;
+    }
+
+    .review .review-wrap .single-review .reviewer-thumb img {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -236,5 +252,16 @@
     .team .team-wrap .single-trainer .trainer-details .trainer-name h4 {
         font-size: 15px;
         margin-bottom: 0;
+    }
+
+    .review .review-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .review .review-wrap .single-review:nth-child(n) {
+        max-width: 400px;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 25px;
     }
 }
