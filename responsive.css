@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1439px){
+    .banner .abs-badge {
+        top: 200px;
+        right: 10px;
+    }
+}
 
 @media only screen and (max-width: 992px){
     header nav button#nav-toggler{
@@ -11,5 +17,114 @@
 
     header nav ul.flex{
         display: none;
+    }
+
+    .banner .banner-contents {
+        max-width: 385px;
+    }
+
+    .banner .banner-contents h1 {
+        font-size: 65px;
+    }
+
+    .banner .banner-contents h1 span {
+        font-size: 110px;
+    }
+
+    .badge {
+        padding: 15px 20px;
+    }
+
+    .badge h3.badge-txt-large {
+        font-size: 30px;
+    }
+
+    .badge span {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .banner .banner-contents {
+        max-width: 320px;
+    }
+
+    .banner .banner-contents h1 {
+        font-size: 44px;
+    }
+
+    .banner .banner-contents h1 span {
+        font-size: 80px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    .title-box h2{
+        font-size: 26px;
+    }
+
+
+    .banner .container {
+        padding: 30px 20px;
+        background-position: bottom center;
+        background-size: 100% auto;
+        max-width: 320px;
+    }
+
+    .banner .banner-contents{
+    }
+
+    .banner .banner-contents h1{
+        font-size: 36px;
+        margin: 0;
+    }
+
+    .banner .banner-contents h1 span {
+        font-size: 75px;
+    }
+
+    .banner .banner-contents p {
+        font-size: 16px;
+        margin: 25px 0;
+        line-height: 24px;
+    }
+
+    .banner .banner-buttons {
+        flex-wrap: wrap;
+        gap: 275px;
+        margin-bottom: 200px;
+    }
+
+    .banner .banner-buttons .pair a {
+        margin-right: 0;
+    }
+
+    .banner .abs-badge {
+        top: 420px;
+        right: 20px;
+    }
+
+    .badge{
+        padding: 10px;
+    }
+
+    .badge h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .badge span {
+        font-size: 9px;
+    }
+
+    .badge h3.badge-txt-large {
+        font-size: 23px;
     }
 }
