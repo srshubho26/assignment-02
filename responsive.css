@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1439px){
+@media only screen and (max-width: 1300px){
     .banner .abs-badge {
         top: 200px;
         right: 10px;
@@ -202,12 +202,8 @@
         margin: 0;
     }
 
-    .badge span {
+    .abs-badge .badge span {
         font-size: 9px;
-    }
-
-    .badge h3.badge-txt-large {
-        font-size: 23px;
     }
 
     .cngHabits{
