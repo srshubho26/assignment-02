@@ -60,6 +60,28 @@
     .title-box h2 {
         font-size: 32px;
     }
+
+    .calculator-wrap{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .bmiCalculator .calculator-wrap .calculator-left {
+        flex-basis: 100%;
+    }
+
+    .bmiCalculator .calculator-wrap .calculator-right {
+        flex-basis: 100%;
+    }
+
+    .bmiCalculator .calculator-wrap .calculator-right .bmiInputs input, 
+    .bmiCalculator .calculator-wrap .calculator-right .bmiInputs select {
+        width: 100%;
+    }
+
+    .bmiCalculator .calculator-wrap .calculator-right form button.btn {
+        padding: 10px 45px;
+    }
 }
 
 
@@ -188,5 +210,11 @@
 
     .runExtraMile .right_runExtraMile .thumb-wrap img {
         height: auto;
+    }
+
+    .bmiCalculator .calculator-wrap .calculator-left .cal-left-contents table th,
+    .bmiCalculator .calculator-wrap .calculator-left .cal-left-contents table td {
+        font-size: 14px;
+        padding: 12px 15px;
     }
 }

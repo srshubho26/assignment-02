@@ -292,3 +292,106 @@ header nav button#nav-toggler{
     height: 100%;
     border-radius: 15px;
 }
+
+
+/* BMI Calculator CSS */
+.bmiCalculator .title-box{
+    padding: 70px 10px;
+    margin-top: 30px;
+}
+
+.bmiCalculator .cal-bg {
+    background: rgba(255, 255, 255, .1);
+    padding: 50px 0;
+    box-shadow: 0 0 10px 5px #40404057 inset;
+}
+
+.bmiCalculator .calculator-wrap .calculator-left{
+    flex-basis: 35%;
+}
+
+.bmiCalculator .calculator-wrap h3{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.bmiCalculator .calculator-wrap .calculator-left .cal-left-contents table{
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+
+.bmiCalculator .calculator-wrap .calculator-left .cal-left-contents table th{
+    text-align: left;
+    color: var(--white-color);
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px solid rgb(255, 255, 255, .1);
+    padding: 12px 20px;
+}
+
+.bmiCalculator .calculator-wrap .calculator-left .cal-left-contents table td{
+    padding: 12px 20px;
+    border: 1px solid rgb(255, 255, 255, .1);
+    font-weight: 300;
+    color: rgb(255, 255, 255, .5);
+    font-size: 14px;
+}
+
+.bmiCalculator .calculator-wrap .calculator-right{
+    flex-basis: 55%;
+}
+
+.bmiCalculator .calculator-wrap .calculator-right h3{
+    margin-bottom: 0;
+}
+
+.bmiCalculator .calculator-wrap .calculator-right p {
+    margin: 20px 0;
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 24px;
+}
+
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs select{
+    background: url(img/icons/angle-down.png) no-repeat;
+    background-position: right 20px center;
+    appearance: none;
+}
+
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs input, 
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs select{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255, .5);
+}
+
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs input::placeholder{
+    color: rgb(255, 255, 255, .5);
+}
+
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs select option:not(first-child){
+    color: rgba(59, 57, 57, 0.925);
+}
+
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs select.full-col{
+    grid-column: 1/-1;
+}
+
+.bmiCalculator .calculator-wrap .calculator-right form button{
+    margin-top: 30px;
+}
+
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs input:focus,
+.bmiCalculator .calculator-wrap .calculator-right .bmiInputs select:focus{
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0.352);
+}
