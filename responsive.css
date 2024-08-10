@@ -82,6 +82,14 @@
     .bmiCalculator .calculator-wrap .calculator-right form button.btn {
         padding: 10px 45px;
     }
+
+    footer .footer-items-wrap .single-footer {
+        flex-basis: 30%;
+    }
+
+    footer .footer-items-wrap .single-footer h4 {
+        margin-bottom: 25px;
+    }
 }
 
 
@@ -127,6 +135,19 @@
     .review .review-wrap .single-review .reviewer-thumb img {
         margin-bottom: 20px;
     }
+
+    footer .footer-items-wrap {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    footer .footer-items-wrap .single-footer{
+        flex-basis: 40%;
+    }
+
+    footer .footer-items-wrap .single-footer:first-child {
+        flex-basis: 100%;
+    }
 }
 
 
@@ -134,7 +155,6 @@
     .title-box h2{
         font-size: 26px;
     }
-
 
     .banner .container {
         padding: 30px 20px;
@@ -263,5 +283,17 @@
         margin: 0 auto;
         width: 100%;
         border-radius: 25px;
+    }
+
+    footer .footer-items-wrap .single-footer {
+        flex-basis: 100%;
+    }
+    
+    footer .footer-items-wrap .single-footer p{
+        max-width: 320px;
+    }
+
+    footer p.copyright {
+        font-size: 16px;
     }
 }
