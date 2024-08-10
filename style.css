@@ -102,9 +102,10 @@ button{
     margin: 0 auto;
 }
 
-.title-box h2{
+.title-box h2 {
     font-size: 48px;
     margin-bottom: 15px;
+    font-weight: 900;
 }
 
 .title-box p{
@@ -155,7 +156,8 @@ header nav button#nav-toggler{
 
 
 /* banner CSS */
-.banner{
+.banner {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.062) 100%);
 }
 
 .banner .container{
@@ -213,4 +215,39 @@ header nav button#nav-toggler{
     position: absolute;
     top: 150px;
     right: -150px;
+}
+
+/* Change your habit CSS */
+.cngHabits{
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.cngHabits .cngHabits-wrap{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.cngHabits .cngHabits-wrap .single-habit img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    border: 5px solid #1A1A1A;;
+}
+
+.cngHabits .cngHabits-wrap .single-habit h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cngHabits .cngHabits-wrap .single-habit p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
 }
